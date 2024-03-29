@@ -1,0 +1,102 @@
+
+/* Estilo geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    background-color: #e3e3e3;
+    height: 100vh;
+}
+
+.header__interface{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.header__logo-img{
+    border-radius: 1000px;
+}
+
+.header__button-contact button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #7843E9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.header__button-contact button:hover{
+    box-shadow: 0px 0px 8px #7843E9;
+    transform: scale(1.05);
+}
+
+/* Estilo do Cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header > .header__interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #535353;
+    transform: scale(1.15);
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Estilo do topo do site */
+.section__photo-img{
+    border-radius: 1000px;
+}
+
+section.__topo-site{
+    padding: 40px 4%;
+}
+
+section.__topo-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.__topo-site h1{
+    font-size: 55px;
+    text-align: center;
+}
+
+.__topo-site p{
+    font-size: 17px;
+    text-align: center;
+}
